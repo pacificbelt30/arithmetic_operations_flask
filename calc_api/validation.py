@@ -2,7 +2,7 @@
 APIリクエストのパラメータ検証を行うモジュール
 """
 
-class ValidationError(Exception)
+class ValidationError(Exception):
     """パラメータ検証に関するエラー"""
     pass
 

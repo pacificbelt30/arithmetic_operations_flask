@@ -20,6 +20,8 @@ exceptiongroup==1.2.2
     # via pytest
 flask==3.0.3
     # via calc-api
+greenlet==3.1.1
+    # via pynvim
 importlib-metadata==8.5.0
     # via flask
 iniconfig==2.1.0
@@ -32,6 +34,8 @@ jinja2==3.1.6
 markupsafe==2.1.5
     # via jinja2
     # via werkzeug
+msgpack==1.1.0
+    # via pynvim
 mypy-extensions==1.0.0
     # via black
 packaging==24.2
@@ -43,12 +47,14 @@ platformdirs==4.3.6
     # via black
 pluggy==1.5.0
     # via pytest
+pynvim==0.5.2
 pytest==8.3.5
 tomli==2.2.1
     # via black
     # via pytest
 typing-extensions==4.12.2
     # via black
+    # via pynvim
 werkzeug==3.0.6
     # via flask
 zipp==3.20.2

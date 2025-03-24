@@ -30,6 +30,7 @@ dev-dependencies = [
     "pytest>=7.0.0",
     "black>=23.0.0",
     "isort>=5.0.0",
+    "pynvim>=0.5.2",
 ]
 
 [tool.black]

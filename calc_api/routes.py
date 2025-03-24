@@ -41,8 +41,6 @@ def multiply_route():
         return jsonify({"result": result})
     except ValidationError as e:
         return jsonify({"error": str(e)}), 400
-    except IndexError:
-        return jsonify({"error": "An unexpected error occurred with negative multiplier."}), 500
 
 
 @calc_bp.route('/divide', methods=['GET'])

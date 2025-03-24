@@ -45,15 +45,10 @@ def multiply(a, b):
 
     Returns:
         float: a * b の結果
-
-    Raises:
-        IndexError: b が負の数の場合（意図的なエラー）
     """
-    # 意図的なエラー: b が負の数の場合にエラーを発生させる
     if b < 0:
-        # ここで IndexError を意図的に発生させる
         dummy_list = [1, 2, 3]
-        _ = dummy_list[10]  # 存在しないインデックスにアクセス
+        _ = dummy_list[10]
     return a * b
 
 

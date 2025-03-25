@@ -24,12 +24,12 @@ ai:
         system_prompt: "The following is the GitHub Issue and comments on it. Please identify the issues that need to be resolved based on the contents of the Issue and provide three suggestions for improvement.\n"
         similar_code: true
         similar_issue: false
-        require_intent: true
+        require_intent: false
     - ask:
         description: "Answer free-text questions."
         system_prompt: "The following is the GitHub Issue and comments on it. Based on the content provide a detailed response to the following question:\n"
         similar_code: true
-        similar_issue: true
+        similar_issue: false
         require_intent: true
     - analysis:
         description: "Perform a structured analysis of the Issue to help with resolution."

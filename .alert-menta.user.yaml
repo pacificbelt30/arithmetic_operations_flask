@@ -42,5 +42,5 @@ ai:
           5) Suggest a systematic approach to resolve the issue, including investigation steps and potential fixes
           6) Identify any potential risks or side effects of the proposed solutions
         similar_code: true
-        similar_issue: true
+        similar_issue: false
         require_intent: false
